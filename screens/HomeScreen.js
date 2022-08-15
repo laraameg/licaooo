@@ -19,9 +19,9 @@ export default class HomeScreen extends Component{
   getWord=(word)=>{
     var searchKeyword=word.toLowerCase()
     var url;
-    url = "https://rupinwhitehatjr.github.io/dictionary/searchKeyword.json"
+    //url = "https://rupinwhitehatjr.github.io/dictionary/searchKeyword.json"
     //url = "https://rupinwhitehatjr.github.io/dictionary/"+ +".json"
-    //url = "https://rupinwhitehatjr.github.io/dictionary/"+searchKeyword+".json"
+    url = "https://rupinwhitehatjr.github.io/dictionary/"+searchKeyword+".json"
     //url = "https://rupinwhitehatjr.github.io/dictionary/"+word+".json"
 
     //API traduzida (contém 5 palavras: aplicativo, aprendizado, escola, linguagem e professora)
